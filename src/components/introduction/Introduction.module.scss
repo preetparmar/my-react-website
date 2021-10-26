@@ -1,0 +1,14 @@
+.introContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .introText {
+    padding-top: 1.5em;
+    max-width: 90%;
+    font-size: 1.1rem;
+    font-family: var(--ff-content);
+    text-align: center;
+  }
+}

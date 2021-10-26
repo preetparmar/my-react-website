@@ -1,0 +1,77 @@
+.showcaseContainer {
+  //   width: 100%;
+  // padding: 0 2em 3em;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-content);
+
+  .showcaseHeader {
+    width: 100%;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .titleBox {
+      font-family: var(--ff-content);
+
+      .title {
+        display: inline-block;
+        font-family: var(--ff-heading);
+        font-size: 1.4rem;
+        font-weight: 800;
+      }
+
+      .location {
+        display: inline-block;
+        // padding-left: 0.2em;
+        font-size: 0.8rem;
+        font-style: italic;
+      }
+
+      .degree {
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      .course {
+        font-size: 1rem;
+        font-weight: 300;
+      }
+      .timeFrame {
+        display: inline-block;
+        padding-top: 0.2em;
+        font-weight: 300;
+        font-size: 0.8rem;
+        // font-style: italic;
+      }
+
+      .timePeriod {
+        display: inline-block;
+        padding-left: 0.2em;
+        font-weight: 200;
+        font-size: 0.7rem;
+        font-style: italic;
+      }
+    }
+
+    .imageBox {
+      .image {
+        max-height: 7em;
+        max-width: 7em;
+        object-fit: fill;
+      }
+    }
+  }
+
+  .aboutContainer {
+    width: 100%;
+
+    .aboutDetails {
+      padding-left: 2em;
+    }
+  }
+}

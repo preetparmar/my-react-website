@@ -1,0 +1,62 @@
+.mainContainer {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.mainContainer .skillContainer {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  min-width: 25%;
+  margin: 1em;
+  border-radius: 0.5em;
+  border: 2px solid var(--clr-dark-15);
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.mainContainer .skillContainer:hover {
+  background-color: var(--clr-dark-15);
+  -webkit-box-shadow: 0px 0px 12px var(--clr-dark-50);
+          box-shadow: 0px 0px 12px var(--clr-dark-50);
+}
+
+.mainContainer .skillContainer .headerContainer {
+  height: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.2rem;
+  font-family: var(--ff-heading);
+  font-weight: 500;
+}
+
+.mainContainer .skillContainer .headerContainer .logo {
+  padding: 0 0.5em;
+}
+
+.mainContainer .skillContainer .headerContainer .headerText {
+  font-weight: 500;
+}
+
+.mainContainer .skillContainer .detailsContainer {
+  max-width: 90%;
+  padding: 0 1.5em 1em;
+  font-family: var(--ff-content);
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=SkillDetails.module.css.map */

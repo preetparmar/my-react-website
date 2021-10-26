@@ -1,0 +1,46 @@
+/* ---- Importing FONTS ---- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700;800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* ---- DEFAULT VALUES ---- */
+:root {
+  /* Font */
+  font-size: calc(0.9vw + 0.5em);
+  --ff-heading: "Roboto Slab", serif;
+  --ff-subtitle: "Roboto Mono", monospace;
+  --ff-content: "Poppins", sans-serif;
+  --fs-heading: 1.5rem;
+  --fs-subtitle: 1rem;
+  --fs-content: 0.8rem;
+  /* Styling */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  --center-width-long: 85%;
+  --center-width-medium: 65%;
+  --center-width-short: 45%;
+  --margin: 1em;
+  --padding: 1em;
+  /* Color */
+  --clr-dark-100: hsl(0, 0%, 0%);
+  --clr-dark-80: hsl(0, 0%, 20%);
+  --clr-dark-75: hsl(0, 0%, 25%);
+  --clr-dark-50: hsl(0, 0%, 50%);
+  --clr-dark-25: hsl(0, 0%, 75%);
+  --clr-dark-15: hsl(0, 0%, 85%);
+  --clr-dark-10: hsl(0, 0%, 95%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+/* ---- REMOVING DEFAULT STYLING ---- */
+*,
+::before,
+::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}

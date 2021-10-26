@@ -1,0 +1,81 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.678);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.backdrop .modalContainer {
+  cursor: default;
+  position: fixed;
+  border-radius: 0.5em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 90%;
+  width: 90%;
+  background: var(--clr-dark-10);
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.backdrop .modalContainer .closeModal {
+  position: absolute;
+  top: 0.2em;
+  right: 0.5em;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--clr-dark-50);
+}
+
+.backdrop .modalContainer .closeModal:hover {
+  color: var(--clr-dark-100);
+}
+
+.backdrop .modalContainer .textContainer {
+  width: 90%;
+  margin: 0.5em auto;
+  text-align: center;
+  padding-top: 0.5em;
+  font-family: var(--ff-content);
+}
+
+.backdrop .modalContainer .textContainer .title {
+  font-family: var(--ff-heading);
+  font-size: 1.8rem;
+}
+
+.backdrop .modalContainer .textContainer .thought {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding-bottom: 0.5em;
+}
+
+.backdrop .modalContainer .list {
+  font-family: var(--ff-content);
+  width: 70%;
+  padding-bottom: 0.5em;
+}
+
+.backdrop .modalContainer .imageContainer {
+  margin: 0 0.5em 1em;
+  overflow-y: scroll;
+}
+/*# sourceMappingURL=AboutModals.module.css.map */

@@ -1,0 +1,24 @@
+.mainContainer {
+  padding-top: 1em;
+  margin: auto;
+  width: 100%;
+}
+
+.mainContainer .thought {
+  width: 80%;
+  margin: auto;
+  font-family: var(--ff-heading);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+.mainContainer .details {
+  width: 85%;
+  margin: auto;
+  font-family: var(--ff-content);
+  font-size: 1.2rem;
+  padding-left: 1em;
+}
+/*# sourceMappingURL=HomeDetails.module.css.map */

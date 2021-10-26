@@ -1,0 +1,16 @@
+.mainContainer {
+  position: absolute;
+}
+
+.carouselContainer {
+  height: 20em;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carouselContainer .contentContainer {
+  width: 50%;
+}
+/*# sourceMappingURL=Carousel.module.css.map */

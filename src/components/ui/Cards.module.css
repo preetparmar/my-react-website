@@ -1,0 +1,78 @@
+.mainContainer {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mainContainer .container {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  width: 30%;
+  margin: 1em;
+  border-radius: 0.5em;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.mainContainer .container:hover {
+  -webkit-box-shadow: 6px 8px 18px 0px rgba(0, 0, 0, 0.48);
+          box-shadow: 6px 8px 18px 0px rgba(0, 0, 0, 0.48);
+}
+
+.mainContainer .container:hover .title {
+  font-size: 2.1rem;
+}
+
+.mainContainer .container .imageContainer {
+  height: 13em;
+}
+
+.mainContainer .container .imageContainer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(90, 90, 90, 0.384)), to(rgba(70, 70, 70, 0.384)));
+  background: linear-gradient(rgba(90, 90, 90, 0.384), rgba(70, 70, 70, 0.384));
+}
+
+.mainContainer .container .imageContainer .image {
+  border-radius: 0.5em;
+  width: 100%;
+  height: 13em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mainContainer .container .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-family: var(--ff-heading);
+  font-size: 2rem;
+  color: var(--clr-white);
+  text-shadow: 3px 3px 2px #0f0f0f;
+}
+/*# sourceMappingURL=Cards.module.css.map */

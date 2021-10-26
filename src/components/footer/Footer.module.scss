@@ -1,0 +1,53 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 1.5em;
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3.5em;
+    background: var(--clr-dark-75);
+
+    .logo {
+      color: var(--clr-dark-25);
+      padding: 0 0.3em;
+      font-size: 1.9rem;
+      transition: color 0.25s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--clr-white);
+      }
+    }
+  }
+
+  .contactContainer {
+    width: 100%;
+    // height: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--clr-dark-100);
+    font-family: var(--ff-heading);
+    color: var(--clr-dark-25);
+    font-size: 0.8rem;
+    // padding: 1em 0;
+
+    .number {
+      padding: 1em 0 0.5em;
+    }
+
+    .email {
+      color: var(--clr-dark-25);
+      text-decoration: none;
+      padding-bottom: 1em;
+    }
+  }
+}

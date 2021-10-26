@@ -1,0 +1,265 @@
+.headerContainer {
+  position: fixed;
+  width: 100%;
+  height: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: var(--clr-dark-80);
+  z-index: 1;
+  -webkit-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+}
+
+.headerContainer .navigationOpenContainer {
+  visibility: hidden;
+}
+
+.headerContainer .toggleContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  height: 2.5em;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerContainer .toggleContainer .logo {
+  height: auto;
+  width: 2.2em;
+  padding: auto 0.3em;
+  cursor: pointer;
+}
+
+.headerContainer .listContainer {
+  -ms-flex-preferred-size: 95%;
+      flex-basis: 95%;
+}
+
+.headerContainer .listContainer ul {
+  height: 100%;
+}
+
+.headerContainer .listContainer ul li {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerContainer .listContainer ul li a {
+  color: var(--clr-dark-25);
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: var(--ff-heading);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.headerContainer .listContainer ul li a:hover, .headerContainer .listContainer ul li a.active {
+  font-weight: 800;
+  color: var(--clr-white);
+}
+
+@media (max-width: 900px) {
+  .headerContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .headerContainer .navigationOpenContainer {
+    visibility: visible;
+    top: -120vh;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .headerContainer .toggleContainer {
+    height: 2.5em;
+    display: block;
+    position: absolute;
+  }
+  .headerContainer .toggleContainer .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .headerContainer .toggleContainer .hamburgerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5em;
+    height: 2.5em;
+    padding-left: 1em;
+    cursor: pointer;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 2.5em;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .hamburger span {
+    width: 100%;
+    height: 0.2em;
+    background-color: var(--clr-dark-25);
+    border-radius: 2em;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .hamburger span:nth-child(1) {
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .hamburger span:nth-child(2) {
+    -webkit-transition-delay: 0.625s;
+            transition-delay: 0.625s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .hamburger span:nth-child(3) {
+    -webkit-transition-delay: 0.75s;
+            transition-delay: 0.75s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .cross {
+    position: absolute;
+    top: 10%;
+    width: 2.5em;
+    height: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .cross span {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: var(--clr-dark-25);
+    border-radius: 2em;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .cross span:nth-child(1) {
+    width: 0.2em;
+    height: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer .cross span:nth-child(2) {
+    width: 0%;
+    height: 0.2em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition-delay: 0.25s;
+            transition-delay: 0.25s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .hamburger span {
+    width: 0%;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .hamburger span:nth-child(1) {
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .hamburger span:nth-child(2) {
+    -webkit-transition-delay: 0.125s;
+            transition-delay: 0.125s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .hamburger span:nth-child(3) {
+    -webkit-transition-delay: 0.25s;
+            transition-delay: 0.25s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .cross span:nth-child(1) {
+    height: 100%;
+    -webkit-transition-delay: 0.625s;
+            transition-delay: 0.625s;
+  }
+  .headerContainer .toggleContainer .hamburgerContainer.open .cross span:nth-child(2) {
+    width: 100%;
+    -webkit-transition-delay: 0.375s;
+            transition-delay: 0.375s;
+  }
+  .headerContainer .toggleContainer .listContainer ul li a {
+    visibility: hidden;
+  }
+  .headerContainer .listContainer {
+    visibility: hidden;
+  }
+  .headerContainer.active .navigationOpenContainer {
+    top: 0%;
+  }
+  .headerContainer.active .listContainer {
+    -webkit-transition: visibility 0.75s ease-in;
+    transition: visibility 0.75s ease-in;
+    -webkit-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+  }
+  .headerContainer.active .listContainer li {
+    padding-top: 3em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .headerContainer.active .listContainer li a {
+    padding-left: 0.5em;
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=Navigation.module.css.map */

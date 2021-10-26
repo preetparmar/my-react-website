@@ -1,0 +1,78 @@
+.bannerSection {
+  position: relative;
+}
+
+.bannerSection .headerFill {
+  height: 2.5em;
+  width: 100%;
+}
+
+.bannerSection .bannerContainer {
+  position: relative;
+}
+
+.bannerSection .bannerContainer .imageContainer {
+  position: relative;
+  height: 30vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bannerSection .bannerContainer .imageContainer::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.432)), to(rgba(0, 0, 0, 0.945)));
+  background: linear-gradient(rgba(255, 255, 255, 0.432), rgba(0, 0, 0, 0.945));
+}
+
+.bannerSection .bannerContainer .imageContainer .bannerImage {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.bannerSection .bannerContainer .textContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--clr-white);
+  font-weight: 600;
+  text-align: center;
+}
+
+.bannerSection .bannerContainer .textContainer .title {
+  font-family: var(--ff-heading);
+  text-shadow: 3px 3px 2px #0f0f0f;
+  font-size: 2.2rem;
+  padding-bottom: 0.5em;
+}
+
+.bannerSection .bannerContainer .textContainer .thought {
+  font-family: var(--ff-subtitle);
+  font-size: 1.2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=Banner.module.css.map */

@@ -1,0 +1,15 @@
+.mainContainer {
+  position: absolute;
+}
+
+.carouselContainer {
+  height: 20em;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .contentContainer {
+    width: 50%;
+  }
+}

@@ -1,0 +1,231 @@
+// Big Screen Size
+.headerContainer {
+  position: fixed;
+  width: 100%;
+  // height: 3em;
+  height: 2.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-dark-80);
+  z-index: 1;
+  transition: height 0.5s ease-in-out;
+
+  .navigationOpenContainer {
+    visibility: hidden;
+  }
+  .toggleContainer {
+    display: flex;
+    flex-basis: 5%;
+    // height: 3em;
+    height: 2.5em;
+    width: 100%;
+    // justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+
+    .logo {
+      height: auto;
+      width: 2.2em;
+      padding: auto 0.3em;
+      cursor: pointer;
+    }
+  }
+
+  .listContainer {
+    flex-basis: 95%;
+
+    ul {
+      height: 100%;
+      li {
+        height: 100%;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+          color: var(--clr-dark-25);
+          padding: 0.5em 1em;
+          text-decoration: none;
+          font-family: var(--ff-heading);
+          // font-size: 1.1rem;
+          font-size: 1.05rem;
+          font-weight: 600;
+
+          &:hover,
+          &.active {
+            font-weight: 800;
+            color: var(--clr-white);
+          }
+        }
+      }
+    }
+  }
+}
+
+// Handling Smaller Screens
+@media (max-width: 900px) {
+  .headerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.5s ease-in-out;
+
+    .navigationOpenContainer {
+      visibility: visible;
+      top: -120vh;
+      transition: 0.5s ease-in-out;
+    }
+
+    .toggleContainer {
+      // height: 3em;
+      height: 2.5em;
+      display: block;
+      position: absolute;
+      // transition: 0.5s ease-in-out;
+
+      .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .hamburgerContainer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 2.5em;
+        height: 2.5em;
+        padding-left: 1em;
+        cursor: pointer;
+
+        .hamburger {
+          display: flex;
+          width: 2.5em;
+          height: 100%;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: flex-start;
+
+          span {
+            width: 100%;
+            height: 0.2em;
+            background-color: var(--clr-dark-25);
+            border-radius: 2em;
+            transition: 0.5s ease-in-out;
+
+            &:nth-child(1) {
+              transition-delay: 0.5s;
+            }
+            &:nth-child(2) {
+              transition-delay: 0.625s;
+            }
+            &:nth-child(3) {
+              transition-delay: 0.75s;
+            }
+          }
+        }
+
+        .cross {
+          position: absolute;
+          top: 10%;
+          width: 2.5em;
+          height: 2.5em;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          transform: rotate(45deg);
+
+          span {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            background-color: var(--clr-dark-25);
+            border-radius: 2em;
+            transition: 0.5s ease-in-out;
+
+            &:nth-child(1) {
+              width: 0.2em;
+              height: 0%;
+              left: 50%;
+              transform: translateX(-50%);
+              transition-delay: 0s;
+            }
+            &:nth-child(2) {
+              width: 0%;
+              height: 0.2em;
+              top: 50%;
+              transform: translateY(-50%);
+              transition-delay: 0.25s;
+            }
+          }
+        }
+
+        // Toggle the Icon
+        &.open {
+          .hamburger span {
+            width: 0%;
+
+            &:nth-child(1) {
+              transition-delay: 0s;
+            }
+            &:nth-child(2) {
+              transition-delay: 0.125s;
+            }
+            &:nth-child(3) {
+              transition-delay: 0.25s;
+            }
+          }
+
+          .cross span {
+            &:nth-child(1) {
+              height: 100%;
+              transition-delay: 0.625s;
+            }
+            &:nth-child(2) {
+              width: 100%;
+              transition-delay: 0.375s;
+            }
+          }
+        }
+      }
+
+      .listContainer ul li a {
+        visibility: hidden;
+      }
+    }
+
+    .listContainer {
+      visibility: hidden;
+    }
+
+    // When toggle is active
+    &.active {
+      // height: 100vh;
+      // background-color: var(--clr-dark-100);
+
+      .navigationOpenContainer {
+        top: 0%;
+      }
+      .listContainer {
+        // visibility: visible;
+        transition: visibility 0.75s ease-in;
+        transition-delay: 0.5s;
+
+        li {
+          padding-top: 3em;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          a {
+            padding-left: 0.5em;
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.mainContainer {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  // background: linear-gradient(0deg, #d9dcdb, #373737);
+  background: var(--clr-dark-80);
+  // background-size: 400% 400%;
+  animation: AnimationName 9s ease infinite;
+  z-index: -1;
+  overflow: hidden;
+
+  .cardsContainer {
+    padding-top: 3em;
+    // height: 80vh;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 51% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
