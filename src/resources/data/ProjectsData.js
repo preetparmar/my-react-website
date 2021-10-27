@@ -44,6 +44,16 @@ const pythonGames = [
       "Being a 90s kid this game is very close to my heart. I wanted to make this game my own and in process widen my skill and knowledge about python modules.",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Snake-Game",
   },
+  // Blackjack
+  {
+    title: "Blackjack",
+    style: "",
+    type: "",
+    image: null,
+    detail:
+      "A CLI python game focusing on the implementaion and use of Python Classes. I decided on doing this project to get the basic understanding of using Python as an Object Oriented Progamming Language.",
+    link: "https://github.com/preetparmar/Python-Games/tree/master/Blackjack",
+  },
 ];
 
 // MY WEBSITE
