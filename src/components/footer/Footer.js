@@ -19,6 +19,8 @@ import {
 //   faEnvelopeOpen,
 // } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+// import { faBlog } from "@fortawesome/free-solid-svg-icons";
+import { faBloggerB } from "@fortawesome/free-brands-svg-icons";
 
 // Main Function
 const Footer = () => {
@@ -26,6 +28,8 @@ const Footer = () => {
   const githubLogo = <FontAwesomeIcon icon={faGithub} />;
   const instagramLogo = <FontAwesomeIcon icon={faInstagram} />;
   const mailLogo = <FontAwesomeIcon icon={faEnvelope} />;
+  const blogLogo = <FontAwesomeIcon icon={faBloggerB} />;
+
   return (
     <Fragment>
       <section className={footerStyles.footerContainer}>
@@ -53,6 +57,14 @@ const Footer = () => {
             className={footerStyles.logo}
           >
             {instagramLogo}
+          </a>
+          <a
+            href="https://blog.preetparmar.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={footerStyles.logo}
+          >
+            {blogLogo}
           </a>
           <a
             href="mailto:preetparmar@outlook.com"
