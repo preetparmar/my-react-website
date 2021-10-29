@@ -8,7 +8,7 @@
 }
 
 .mainContainer.hide {
-  opacity: 0;
+  display: none;
 }
 
 .mainContainer .icon {
