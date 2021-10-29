@@ -2,12 +2,13 @@
 import { Fragment } from "react";
 import { useHistory } from "react-router-dom";
 
-// Importing Files
+// Importing Components
 import Navigation from "../components/navigation/Navigation";
 import Banner from "../components/banner/Banner";
 import Introduction from "../components/introduction/Introduction";
 import Showcase from "../components/showcase/Showcase";
 import Footer from "../components/footer/Footer";
+import GoBackUp from "../components/go-back-up/GoBackUp";
 
 // Importing Data
 import BannerData from "../resources/data/BannerData";
@@ -28,6 +29,7 @@ const Education = () => {
       />
       <Introduction introText={IntroData[`${currentSelection}`].text} />
       <Showcase data={EducationData} />
+      <GoBackUp />
       <Footer />
     </Fragment>
   );

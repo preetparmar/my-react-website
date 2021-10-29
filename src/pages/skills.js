@@ -8,6 +8,7 @@ import Banner from "../components/banner/Banner";
 import Introduction from "../components/introduction/Introduction";
 import SkillsDetails from "../components/skill-details/SkillDetails";
 import Footer from "../components/footer/Footer";
+import GoBackUp from "../components/go-back-up/GoBackUp";
 
 // Importing Data
 import BannerData from "../resources/data/BannerData";
@@ -29,6 +30,7 @@ const Skills = () => {
       />
       <Introduction introText={IntroData.skills.text} />
       <SkillsDetails data={SkillsData} />
+      <GoBackUp />
       <Footer />
     </Fragment>
   );

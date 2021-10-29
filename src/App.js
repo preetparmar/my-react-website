@@ -13,9 +13,7 @@ import React, { Suspense, Fragment } from "react";
 import LoadingScreen from "./components/ui/LoadingScreen";
 import NavigationOpen from "./components/navigation/NavigationOpen";
 
-// Importing Data
-// import resume from "./resources/resume.pdf";
-
+// Importing Lazy Loading Pages
 const Home = React.lazy(() => import("./pages/home"));
 const Education = React.lazy(() => import("./pages/education"));
 const Skills = React.lazy(() => import("./pages/skills"));

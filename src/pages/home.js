@@ -7,6 +7,7 @@ import Banner from "../components/banner/Banner";
 import HomeDetails from "../components/home-details/HomeDetails";
 import Cards from "../components/ui/Cards";
 import Footer from "../components/footer/Footer";
+import GoBackUp from "../components/go-back-up/GoBackUp";
 
 // Importing Data
 import BannerData from "../resources/data/BannerData";
@@ -24,6 +25,7 @@ const Home = () => {
       />
       <HomeDetails data={HomeData} />
       <Cards data={HomeCards} />
+      <GoBackUp />
       <Footer />
     </Fragment>
   );

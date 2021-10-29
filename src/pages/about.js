@@ -9,6 +9,7 @@ import Introduction from "../components/introduction/Introduction";
 import Footer from "../components/footer/Footer";
 import AboutCards from "../components/about-modals/AboutCards";
 import AboutModal from "../components/about-modals/AboutModals";
+import GoBackUp from "../components/go-back-up/GoBackUp";
 
 // Importing Data
 import BannerData from "../resources/data/BannerData";
@@ -43,6 +44,7 @@ const About = () => {
       />
       <Introduction introText={IntroData[`${currentSelection}`].text} />
       <AboutCards data={AboutCardsData} selectedCard={onSelectingCard} />
+      <GoBackUp />
       <Footer />
       {/* {selectedData && (
         <AboutModals data={selectedData} modalStatus={onClosingModal} />

@@ -8,6 +8,7 @@ import Banner from "../components/banner/Banner";
 import Introduction from "../components/introduction/Introduction";
 // import Slider from "../components/carousel (COPY)/Slider";
 import Carousel from "../components/carousel/Carousel";
+import GoBackUp from "../components/go-back-up/GoBackUp";
 import Footer from "../components/footer/Footer";
 
 // Importing Data
@@ -39,6 +40,7 @@ const Projects = () => {
       <Carousel title="Python Games" data={pythonGames} />
       <Carousel title="My APIs" data={apiProjects} />
       <Carousel title="Website Animations" data={websiteAnimations} />
+      <GoBackUp />
       <Footer />
     </Fragment>
   );
