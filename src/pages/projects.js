@@ -20,6 +20,7 @@ import {
   websiteAnimations,
   telegramBot,
   apiProjects,
+  pythonGUI,
 } from "../resources/data/ProjectsData";
 
 // Main Function
@@ -40,6 +41,7 @@ const Projects = () => {
       <Carousel title="Python Games" data={pythonGames} />
       <Carousel title="My APIs" data={apiProjects} />
       <Carousel title="Website Animations" data={websiteAnimations} />
+      <Carousel title="Python GUIs" data={pythonGUI} width="no" />
       <GoBackUp />
       <Footer />
     </Fragment>

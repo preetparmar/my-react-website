@@ -9,6 +9,10 @@ import expandingImageGif from "../images/projects/website-animations/expanding-i
 import feedbackUiGif from "../images/projects/website-animations/feedback-ui.gif";
 import inputWaveGif from "../images/projects/website-animations/input-wave.gif";
 import splitLandingPageGif from "../images/projects/website-animations/split-landing-page.gif";
+import notepadImage from "../images/projects/python-gui/notepad.png";
+import calculatorImage from "../images/projects/python-gui/calculator.png";
+import checklistGif from "../images/projects/python-gui/checklist.gif";
+import metricsConverterGif from "../images/projects/python-gui/metrics-converter.gif";
 
 // PYTHON GAMES
 const pythonGames = [
@@ -153,4 +157,58 @@ const apiProjects = [
   },
 ];
 
-export { pythonGames, myWebsite, websiteAnimations, telegramBot, apiProjects };
+// MY APIs
+const pythonGUI = [
+  // NotePad
+  {
+    title: "Notepad",
+    style: "row",
+    type: "",
+    image: notepadImage,
+    detail:
+      "A notepad created in python using tkinter library. I have added various functionalities like: creating a note, changing fonts, change font styles or font sizes, saving the file, and opening a saved file.",
+    link: "https://github.com/preetparmar/My-GUI/tree/main/05.%20Notepad",
+  },
+
+  // Calculator
+  {
+    title: "Calculator",
+    style: "row",
+    type: "",
+    image: calculatorImage,
+    detail:
+      "Fully functional calculator with features like Addition, Substraction, Division, Multiplication, Inverse, Square, and Exponential created in python.",
+    link: "https://github.com/preetparmar/My-GUI/tree/main/04.%20Calculator",
+  },
+
+  // Simple Checklist
+  {
+    title: "Simple Checklist",
+    style: "",
+    type: "",
+    image: checklistGif,
+    detail:
+      "A simple checklist with features like Adding, Removing, Clearing and Saving the checklist.",
+    link: "https://github.com/preetparmar/My-GUI/tree/main/03.%20Simple%20Checklist",
+  },
+
+  // Simple Checklist
+  {
+    title: "Metrics Converter",
+    style: "",
+    type: "",
+    image: metricsConverterGif,
+    detail:
+      "Metrics Converter where you can enter the base value and select the unit you want to convert your base value into.",
+    link: "https://github.com/preetparmar/My-GUI/tree/main/02.%20Metric%20Helper",
+  },
+];
+
+export {
+  pythonGames,
+  myWebsite,
+  websiteAnimations,
+  telegramBot,
+  apiProjects,
+  pythonGUI,
+};
