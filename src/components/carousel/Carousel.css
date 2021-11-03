@@ -40,7 +40,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 200;
 }
 
 .mainContainer .dotContainer .allDots .dot {
@@ -85,7 +84,6 @@
 .mainContainer .projectContainer .arrows .prev,
 .mainContainer .projectContainer .arrows .next {
   cursor: pointer;
-  z-index: 100;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
