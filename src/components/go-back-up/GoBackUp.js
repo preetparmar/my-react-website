@@ -14,16 +14,23 @@ const GoBackUp = () => {
   // const [scrollPosition, setScrollPosition] = useState(0);
   const [showGoToTop, setShowGoToTop] = useState("hide");
 
+  const toggleVisibility = () => {
+    if (window.pageYOffset > 450) {
+      setShowGoToTop("");
+    } else {
+      setShowGoToTop("hide");
+    }
+    return () => {};
+  };
+
   const upIcon = <FontAwesomeIcon icon={faChevronCircleUp} />;
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 450) {
-        setShowGoToTop("");
-      } else {
-        setShowGoToTop("hide");
-      }
-    });
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      window.removeEventListener("scroll", toggleVisibility);
+    };
   }, []);
 
   return (
