@@ -149,6 +149,7 @@ const ModalData = {
     detail: "Some random things about me:",
     list: [
       "I have played Handball at a national level.",
+      "I currently have 5 tattoos, definitely getting more.",
       "I play more than 8 sports.",
       "Dogs lover: I am currently a proud owner of a Lhasa Apso.",
       "In a fight between DC and Marvel, DC wins hands down.",
