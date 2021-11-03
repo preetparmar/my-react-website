@@ -25,10 +25,22 @@
     justify-content: flex-start;
     align-items: center;
 
+    .title {
+      font-family: var(--ff-heading);
+      font-size: 1.8rem;
+      padding: 0.15em 0;
+    }
+
+    .modalContent {
+      max-height: 100%;
+      overflow-y: scroll;
+      margin: 0.25em;
+    }
+
     .closeModal {
       position: absolute;
       top: 0.2em;
-      right: 0.5em;
+      right: 0.75em;
       cursor: pointer;
       font-size: 2rem;
       color: var(--clr-dark-50);
@@ -41,15 +53,16 @@
     .textContainer {
       width: 90%;
       // height: 20%;
-      margin: 0.5em auto;
+      // margin: 0.5em auto;
+      margin: 0 auto;
       text-align: center;
-      padding-top: 0.5em;
+      // padding-top: 0.5em;
       font-family: var(--ff-content);
 
-      .title {
-        font-family: var(--ff-heading);
-        font-size: 1.8rem;
-      }
+      // .title {
+      //   font-family: var(--ff-heading);
+      //   font-size: 1.8rem;
+      // }
 
       .thought {
         font-size: 1.1rem;
@@ -62,11 +75,12 @@
       font-family: var(--ff-content);
       // display: block;
       width: 70%;
+      margin: 0 auto;
       padding-bottom: 0.5em;
     }
     .imageContainer {
       margin: 0 0.5em 1em;
-      overflow-y: scroll;
+      // overflow-y: scroll;
     }
   }
 }

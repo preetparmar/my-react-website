@@ -25,7 +25,7 @@ const AboutModals = (props) => {
 
   return (
     <Fragment>
-      <section>
+      {/* <section>
         <div className={Styles.backdrop} onClick={backdropClipHandler}>
           <div className={Styles.modalContainer}>
             <span
@@ -44,6 +44,32 @@ const AboutModals = (props) => {
             )}
             <div className={Styles.imageContainer}>
               <ImageCards data={props.data.images} />
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section>
+        <div className={Styles.backdrop} onClick={backdropClipHandler}>
+          <div className={Styles.modalContainer}>
+            <h1 className={Styles.title}>{props.data.title}</h1>
+            <div className={Styles.modalContent}>
+              <span
+                className={Styles.closeModal}
+                onClick={closeButtonClickHandler}
+              >
+                {crossLogo}
+              </span>
+              <div className={Styles.textContainer}>
+                {/* <h1 className={Styles.title}>{props.data.title}</h1> */}
+                <p className={Styles.thought}>{props.data.thought}</p>
+                <p className={Styles.detail}>{props.data.detail}</p>
+              </div>
+              {props.data.list && (
+                <List className={Styles.list} listItems={props.data.list} />
+              )}
+              <div className={Styles.imageContainer}>
+                <ImageCards data={props.data.images} />
+              </div>
             </div>
           </div>
         </div>
