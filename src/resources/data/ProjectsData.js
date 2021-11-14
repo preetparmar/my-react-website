@@ -4,6 +4,7 @@
 // Importing Images
 import trexGif from "../images/projects/python-games/trex.gif";
 import flappyGif from "../images/projects/python-games/flappy.gif";
+import asteroidClashImage from "../images/projects/python-games/asteroid-clash.png";
 import snakeImage from "../images/projects/python-games/snake.png";
 import expandingImageGif from "../images/projects/website-animations/expanding-image.gif";
 import feedbackUiGif from "../images/projects/website-animations/feedback-ui.gif";
@@ -36,6 +37,17 @@ const pythonGames = [
     detail:
       "This is one of the most annoying yet entertaining games. I recreated the classic version in Python using the PyGame module.",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Flappy-Bird",
+  },
+
+  // Asteroid Clash
+  {
+    title: "Asteroid Clash",
+    style: "row",
+    type: "",
+    image: asteroidClashImage,
+    detail:
+      "The famouse Asteroid game recreated using Pygame and Object Oriented Programming concepts in python",
+    link: "https://github.com/preetparmar/Python-Games/tree/master/Asteroid%20Clash",
   },
 
   // Snake Game
