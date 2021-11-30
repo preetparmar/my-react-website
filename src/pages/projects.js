@@ -21,6 +21,7 @@ import {
   telegramBot,
   apiProjects,
   pythonGUI,
+  machineLearningProjects,
 } from "../resources/data/ProjectsData";
 
 // Main Function
@@ -37,11 +38,20 @@ const Projects = () => {
       />
       <Introduction introText={IntroData[`${currentSelection}`].text} />
       <Carousel title="My Website" data={myWebsite} />
+      <Carousel title="My APIs" data={apiProjects} />
       <Carousel title="Telegram Bot" data={telegramBot} />
       <Carousel title="Python Games" data={pythonGames} />
-      <Carousel title="My APIs" data={apiProjects} />
-      <Carousel title="Website Animations" data={websiteAnimations} />
-      <Carousel title="Python GUIs" data={pythonGUI} width="no" />
+      <Carousel
+        title="Machine Learning Projects"
+        data={machineLearningProjects}
+      />
+      <Carousel title="Python GUIs" data={pythonGUI} />
+      <Carousel
+        title="Website Animations"
+        data={websiteAnimations}
+        width="no"
+      />
+
       <GoBackUp />
       <Footer />
     </Fragment>
