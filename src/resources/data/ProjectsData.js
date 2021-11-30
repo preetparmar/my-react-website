@@ -216,6 +216,20 @@ const pythonGUI = [
   },
 ];
 
+// Machine Learning Projects
+const machineLearningProjects = [
+  // California House Prices
+  {
+    title: "California House Prices",
+    style: "single",
+    type: "text-only",
+    image: null,
+    detail:
+      "Analysed California House Prices and applied some of Machine Learning Algorithms like Linear Regression, Decision Tree Regressor, and Random Forest Regressor. This project is more focused the cleaning, analyzing and visualizing the data.",
+    link: "https://github.com/preetparmar/Machine-Learning-Projects/blob/main/California%20House%20Prices.ipynb",
+  },
+];
+
 export {
   pythonGames,
   myWebsite,
@@ -223,4 +237,5 @@ export {
   telegramBot,
   apiProjects,
   pythonGUI,
+  machineLearningProjects,
 };
