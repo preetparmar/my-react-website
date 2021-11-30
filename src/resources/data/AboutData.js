@@ -108,7 +108,7 @@ const ModalData = {
   },
 
   funko: {
-    title: "Funko Pop Collection",
+    title: "Funko Pop Collector",
     thought: "I'm not obsessed, I'm a collector",
     detail:
       "The fact that there are pop figures for everything is so fascinating and exciting. How can you not buy these things. Here's a little peak in my ever growing collection...",
