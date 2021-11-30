@@ -12,6 +12,8 @@ import {
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons";
 
+import { faPython } from "@fortawesome/free-brands-svg-icons";
+
 // Declaring Icons
 const databaseLogo = <FontAwesomeIcon icon={faDatabase} />;
 const etlLogo = <FontAwesomeIcon icon={faTools} />;
@@ -20,6 +22,7 @@ const languageLogo = <FontAwesomeIcon icon={faCode} />;
 const marketingLogo = <FontAwesomeIcon icon={faAd} />;
 const generalLogo = <FontAwesomeIcon icon={faCogs} />;
 const webDevelopementLogo = <FontAwesomeIcon icon={faLaptopCode} />;
+const pythonLogo = <FontAwesomeIcon icon={faPython} />;
 
 // Declaring Data
 
@@ -65,6 +68,20 @@ const SkillsData = [
     title: "Web Development",
     logo: webDevelopementLogo,
     details: ["HTML", "CSS", "JavaScript", "SCSS", "React", "JSX"],
+  },
+
+  //   Python Libraries
+  {
+    title: "Python Libraries",
+    logo: pythonLogo,
+    details: [
+      "Scikit-Learn",
+      "Pandas",
+      "Numpy",
+      "MatPlotLib",
+      "SeaBorn",
+      "TensorFlow",
+    ],
   },
 
   //   Marketing
