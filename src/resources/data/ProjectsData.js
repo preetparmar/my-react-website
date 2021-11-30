@@ -228,6 +228,17 @@ const machineLearningProjects = [
       "Analysed California House Prices and applied some of Machine Learning Algorithms like Linear Regression, Decision Tree Regressor, and Random Forest Regressor. This project is more focused the cleaning, analyzing and visualizing the data.",
     link: "https://github.com/preetparmar/Machine-Learning-Projects/blob/main/California%20House%20Prices.ipynb",
   },
+
+  // MNIST Categorization
+  {
+    title: "MNIST Categorization",
+    style: "single",
+    type: "text-only",
+    image: null,
+    detail:
+      "Analysed MNIST data and applied few classification algorithms. This project is a start-up project, where I go over some of the evaluation techniques for classification models.",
+    link: "https://github.com/preetparmar/Machine-Learning-Projects/blob/main/MNIST%20Data.ipynb",
+  },
 ];
 
 export {
