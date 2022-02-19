@@ -5,8 +5,31 @@ import neuImage from "../images/experience/neu.png";
 import pnImage from "../images/experience/pn.jpg";
 import nokiaImage from "../images/experience/nokia.png";
 import hpImage from "../images/experience/hp.png";
+import sonaImage from "../images/experience/sona.png";
 
 const ExperienceData = [
+  //   Sona Enterprise
+  {
+    name: "Sona Enterprise",
+    image: sonaImage,
+    location: "Bhuj, India",
+    title: "Data Analyst",
+    course: "",
+    timeFrame: "March 2021 - March 2022",
+    timePeriod: "(1 year 1 month)",
+    introText:
+      "With the goal of moving to Canada as a Permanent Resident, I returned back to India. I wanted to use the knowledge and experience I gained in USA and apply that to a small-scale industry where I could oversee the complete project from start to finish. Here I was able to brush up on my basic skills and provide an automated process for analyzing the data.",
+    details: [
+      "Designed and implemented a data infrastructure for capturing various data points related to sales.",
+      "Processed the captured data using various data pipeline methods for cleaning and transformation purposes.",
+      "Presented sales reports on a weekly basis to the higher management.",
+      "Created Power BI dataflows for extracting, transforming and cleaning the data, which was then fed to various Power BI reports specifically designed for different teams.",
+      "Automated the financial transactions to provide an interactive dashboard focused on answering various questions for the stakeholders.",
+      "Used custom Python scripts and Power Pivot for automating the entire data analysis process and reducing the manual data cleansing process.",
+    ],
+    width: "",
+  },
+
   //   AMP AGENCY
   {
     name: "AMP Agency",
@@ -17,7 +40,7 @@ const ExperienceData = [
     timeFrame: "July 2018 - February 2021",
     timePeriod: "(2 years 8 months)",
     introText:
-      "Here I was introduced to the world of marketing, which was something new and challenging. I was the only BI individual in my team, so I had multiple responsibilities regarding the data structure, visualization, pipeline, mentoring, exploring new tools, and designing a roadmap for future projects. Every day came up with new challenges which needed outside of box thinking. I worked for more than 10 different accounts, which required learning a new skill and toolset.",
+      "Here I was introduced to the world of marketing, which was something new and challenging. I was the only BI individual in my team, so I had multiple responsibilities regarding the data structure, visualization, pipeline, mentoring, exploring new tools, and designing a roadmap for future projects. Every day came up with new challenges which needed outside of box thinking. I worked for more than 10 different accounts, which required learning a new skill and toolset. Some of the clients I worked for are Zillow, Hasbro, Cengage, Mission Foods, Maruchan, Sam Edelman, AAA Insurance to name a few.",
     details: [
       "Created an end to end process for Zillow's Social team providing them with insights on their social marketing campaign using Google Data Studio, Google Sheets, Power BI, and various marketing platforms.",
       "Designed automated data pipelines which included ingestion, cleaning, transformation of data using different technologies like Power BI data flows and python scripts.",
@@ -25,7 +48,7 @@ const ExperienceData = [
       "Generated insights based off data to help identify trends, creative optimizations, and more.",
       "Supported as a python consultant on one account, where I handled any update or query related to their python scripts.",
       "Member of 2020 Analytics Visualization Taskforce to develop best practices for presenting the data.",
-      "Collaborated with strategy, media, creative, seo, and account teams to identify client optimizations and internal improvement.",
+      "Collaborated with strategy, media, creative, SEO, and account teams to identify client optimizations and internal improvement.",
       "Created a custom API tool to extract data from Google Search Console and Google Analytics.",
       "Executed special projects; including measurement frameworks, data infrastructure plans, automated data pipelines, ad hoc consulting.",
     ],
@@ -120,10 +143,10 @@ const ExperienceData = [
     name: "HP World",
     image: hpImage,
     location: "Bhuj, India",
-    title: "Data Analyst",
+    title: "Sales and Service Analyst",
     course: "",
-    timeFrame: "January 2013 - June 2015",
-    timePeriod: "(2 years 6 months)",
+    timeFrame: "July 2012 - December 2012",
+    timePeriod: "(6 months)",
     introText:
       "This was my first job after my undergraduation. I started as a hardware engineer since I got a bachelor degree in Electronics Engineering. But soon I realized my passion for data and its implication on a business, so I started my journey in data.",
     details: [

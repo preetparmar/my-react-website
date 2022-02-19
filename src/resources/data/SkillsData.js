@@ -10,6 +10,7 @@ import {
   faAd,
   faCogs,
   faLaptopCode,
+  faIcons,
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faPython } from "@fortawesome/free-brands-svg-icons";
@@ -23,6 +24,7 @@ const marketingLogo = <FontAwesomeIcon icon={faAd} />;
 const generalLogo = <FontAwesomeIcon icon={faCogs} />;
 const webDevelopementLogo = <FontAwesomeIcon icon={faLaptopCode} />;
 const pythonLogo = <FontAwesomeIcon icon={faPython} />;
+const mediaLogo = <FontAwesomeIcon icon={faIcons} />;
 
 // Declaring Data
 
@@ -46,14 +48,30 @@ const SkillsData = [
   {
     title: "ETL Tools",
     logo: etlLogo,
-    details: ["Alteryx", "SSIS", "Talend", "Power Pivot"],
+    details: [
+      "Alteryx",
+      "SSIS",
+      "Talend",
+      "Power Pivot",
+      "Tableau Prep",
+      "Power BI DataFlows",
+      "Python Scripts",
+    ],
   },
 
   //   Visual Tools
   {
     title: "Visual Tools",
     logo: visualLogo,
-    details: ["Power BI", "Tableau", "Google Data Studio", "Power Pivot"],
+    details: [
+      "Power BI",
+      "Tableau",
+      "Google Data Studio",
+      "Power Pivot",
+      "Qlik Sense",
+      "Looker",
+      "Knime",
+    ],
   },
 
   //   Languages
@@ -98,6 +116,21 @@ const SkillsData = [
       "Walmart Advertising",
       "Amazon Marketing Services",
       "Jivox",
+    ],
+  },
+
+  //   Media
+  {
+    title: "Multimedia",
+    logo: mediaLogo,
+    details: [
+      "Adobe Photoshop",
+      "Luminar AI",
+      "Adobe Premiere",
+      "Wondershare Filmora",
+      "DaVinci Resolve",
+      "OBS Studio",
+      "Stream Labs",
     ],
   },
 

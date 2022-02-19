@@ -103,7 +103,7 @@ const ModalData = {
     title: "Gamer",
     thought: "What doesn't kill me, gives me EXP",
     detail:
-      "Oh I love gaming... I am a proud owner of a Gaming PC where I spend majority of my time. If I am not gaming on it then I am learning new stuff on it. For some reason, I could never enjoy playing on a console, keyboard and mouse just speaks to me differently than a controller. I do have a YouTube gaming channel where I try to upload videos, if I get the time to edit the videos. I would prefer spending that time enjoying the game or learning something new. Here are some of the titles I love...",
+      "Oh I love gaming... I am a proud owner of a Gaming PC where I spend majority of my time. If I am not gaming on it then I am learning new stuff on it. For some reason, I could never enjoy playing on a console, keyboard and mouse just speaks to me differently than a controller. I do have a YouTube gaming channel where I try to upload videos, if I get the time to edit the videos. I would prefer spending that time enjoying the game or learning something new. Here are some of the titles I love.",
     images: [game01, game02, game03, game04, game05, game06, game07, game08],
   },
 
