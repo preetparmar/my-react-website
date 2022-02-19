@@ -17,7 +17,7 @@
           align-items: center;
   height: 16em;
   width: 100%;
-  background: var(--clr-dark-10);
+  background: var(--clr-dark-12);
 }
 
 .contentContainer .headerContainer {

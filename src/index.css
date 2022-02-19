@@ -26,6 +26,7 @@
   --clr-dark-50: hsl(0, 0%, 50%);
   --clr-dark-25: hsl(0, 0%, 75%);
   --clr-dark-15: hsl(0, 0%, 85%);
+  --clr-dark-12: hsl(0, 0%, 90%);
   --clr-dark-10: hsl(0, 0%, 95%);
   --clr-white: hsl(0, 0%, 100%);
 }
