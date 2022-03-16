@@ -24,6 +24,7 @@ import executiveSalesReport from "../images/projects/data-visualization/Executiv
 import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.gif";
 import infoBoxPopUpv01 from "../images/projects/power-bi/info-box-pop-up-v01.gif";
 import duplicateNames from "../images/projects/power-bi/handling-duplicate-names.png";
+import hideVisualBasedOnSelection from "../images/projects/power-bi/display-visual-based-on-selection.gif";
 
 // PYTHON GAMES
 const pythonGames = [
@@ -289,6 +290,16 @@ const powerBiMiniProjects = [
     link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
   },
 
+  // Display Visual Based on Selection
+  {
+    title: "Display Visual Based on Selection",
+    style: "row",
+    type: "",
+    image: hideVisualBasedOnSelection,
+    detail: "Displaying visual based on a specific condition.",
+    link: "https://blog.preetparmar.com/display-visuals-based-on-selection/",
+  },
+
   // Info Box PopUp v1
   {
     title: "Info Box Pop Up v1",
@@ -308,7 +319,7 @@ const powerBiMiniProjects = [
     image: duplicateNames,
     detail:
       "Better way to handle duplicate values. For more details look at the code in my GitHub Repository.",
-    link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Handling%20Duplicate%20Customer%20Names",
+    link: "https://blog.preetparmar.com/power-bi-handling-customer-with-same-name/",
   },
 ];
 
