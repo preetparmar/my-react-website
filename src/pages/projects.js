@@ -22,6 +22,8 @@ import {
   apiProjects,
   pythonGUI,
   machineLearningProjects,
+  dataVisualization,
+  powerBiMiniProjects,
 } from "../resources/data/ProjectsData";
 
 // Main Function
@@ -38,6 +40,8 @@ const Projects = () => {
       />
       <Introduction introText={IntroData[`${currentSelection}`].text} />
       <Carousel title="My Website" data={myWebsite} />
+      <Carousel title="Data Visualization" data={dataVisualization} />
+      <Carousel title="Power BI Mini Projects" data={powerBiMiniProjects} />
       <Carousel title="My APIs" data={apiProjects} />
       <Carousel title="Telegram Bot" data={telegramBot} />
       <Carousel title="Python Games" data={pythonGames} />

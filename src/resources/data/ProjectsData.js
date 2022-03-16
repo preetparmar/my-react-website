@@ -15,6 +15,16 @@ import calculatorImage from "../images/projects/python-gui/calculator.png";
 import checklistGif from "../images/projects/python-gui/checklist.gif";
 import metricsConverterGif from "../images/projects/python-gui/metrics-converter.gif";
 
+// Data Visualization Images
+import salesAndBudgetAnalysis from "../images/projects/data-visualization/SalesAndBudgetAnalysis.png";
+import executiveSalesReport from "../images/projects/data-visualization/ExecutiveSalesReport.png";
+
+// Power BI Images
+// import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.png";
+import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.gif";
+import infoBoxPopUpv01 from "../images/projects/power-bi/info-box-pop-up-v01.gif";
+import duplicateNames from "../images/projects/power-bi/handling-duplicate-names.png";
+
 // PYTHON GAMES
 const pythonGames = [
   // T Rex Run
@@ -241,6 +251,67 @@ const machineLearningProjects = [
   },
 ];
 
+// Data Visualization
+const dataVisualization = [
+  // Executive Sales Report
+  {
+    title: "Executive Sales Report using Power BI",
+    style: "row",
+    type: "",
+    image: executiveSalesReport,
+    detail:
+      "Executive Sales Report with some advanced features. For more details look at the code.",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report",
+  },
+
+  // Sales and Budget Analysis
+  {
+    title: "Sales & Budget Analysis using Power BI",
+    style: "row",
+    type: "",
+    image: salesAndBudgetAnalysis,
+    detail:
+      "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics.",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis",
+  },
+];
+
+// Power BI
+const powerBiMiniProjects = [
+  // Page Navigation v1
+  {
+    title: "Page Navigation v1",
+    style: "row",
+    type: "",
+    image: pageNavigationv01,
+    detail:
+      "A custom page navigation bar using the built in navigator in Power BI.",
+    link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
+  },
+
+  // Info Box PopUp v1
+  {
+    title: "Info Box Pop Up v1",
+    style: "row",
+    type: "",
+    image: infoBoxPopUpv01,
+    detail:
+      "A pop up text box which provides more contexual data compared to simple visuals.",
+    link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
+  },
+
+  // Handling Duplicate Names
+  {
+    title: "Handling Duplicate Names",
+    style: "row",
+    type: "",
+    image: duplicateNames,
+    detail:
+      "Better way to handle duplicate values. For more details look at the code in my GitHub Repository.",
+    link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Handling%20Duplicate%20Customer%20Names",
+  },
+];
+
 export {
   pythonGames,
   myWebsite,
@@ -249,4 +320,6 @@ export {
   apiProjects,
   pythonGUI,
   machineLearningProjects,
+  dataVisualization,
+  powerBiMiniProjects,
 };

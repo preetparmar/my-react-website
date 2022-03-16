@@ -10,7 +10,7 @@ import blogBanner from "../images/banners/blog.jpg";
 const BannerData = {
   home: {
     title: "HEY I'M PREET PARMAR",
-    text: "Data Anlayst - BI Enthusiast - Coder - Dancer - Gamer",
+    text: "Data Analyst - BI Enthusiast - Coder - Dancer - Gamer",
     bannerImage: homeBanner,
   },
 
