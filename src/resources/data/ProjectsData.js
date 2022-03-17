@@ -273,7 +273,7 @@ const dataVisualization = [
     type: "",
     image: finanacialComplaintsTablueau,
     detail:
-      "A replication of a very interesting dashbaord I came across in Tableau.",
+      "A replication of a very interesting dashbaord I came across in Tableau. It goes over Financial Complaints Dataset and used various advanced visuals.",
     link: "https://public.tableau.com/app/profile/preet.parmar6806/viz/FinancialComplaints_16446649411580/FCOVERVIEW?publish=yes",
   },
 
