@@ -18,6 +18,7 @@ import metricsConverterGif from "../images/projects/python-gui/metrics-converter
 // Data Visualization Images
 import salesAndBudgetAnalysis from "../images/projects/data-visualization/SalesAndBudgetAnalysis.png";
 import executiveSalesReport from "../images/projects/data-visualization/ExecutiveSalesReport.png";
+import finanacialComplaintsTablueau from "../images/projects/data-visualization/FinanacialComplaintsTablueau.png";
 
 // Power BI Images
 // import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.png";
@@ -263,6 +264,17 @@ const dataVisualization = [
     detail:
       "Executive Sales Report with some advanced features. For more details look at the code.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report",
+  },
+
+  // Financial Complaints in Tableau
+  {
+    title: "Financial Complaints Report using Tableau",
+    style: "row",
+    type: "",
+    image: finanacialComplaintsTablueau,
+    detail:
+      "A replication of a very interesting dashbaord I came across in Tableau.",
+    link: "https://public.tableau.com/app/profile/preet.parmar6806/viz/FinancialComplaints_16446649411580/FCOVERVIEW?publish=yes",
   },
 
   // Sales and Budget Analysis
