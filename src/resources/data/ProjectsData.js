@@ -19,6 +19,7 @@ import metricsConverterGif from "../images/projects/python-gui/metrics-converter
 import salesAndBudgetAnalysis from "../images/projects/data-visualization/SalesAndBudgetAnalysis.png";
 import executiveSalesReport from "../images/projects/data-visualization/ExecutiveSalesReport.png";
 import finanacialComplaintsTablueau from "../images/projects/data-visualization/FinanacialComplaintsTablueau.png";
+import financialStatisticsIncomeSource from "../images/projects/data-visualization/FinancialStatisticsIncomeSource.png";
 
 // Power BI Images
 // import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.png";
@@ -263,7 +264,7 @@ const dataVisualization = [
     image: executiveSalesReport,
     detail:
       "Executive Sales Report with some advanced features. For more details look at the code.",
-    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report%20using%20Power%20BI",
   },
 
   // Financial Complaints in Tableau
@@ -277,6 +278,17 @@ const dataVisualization = [
     link: "https://public.tableau.com/app/profile/preet.parmar6806/viz/FinancialComplaints_16446649411580/FCOVERVIEW?publish=yes",
   },
 
+  // Financial Statistics using Excel
+  {
+    title: "Financial Statistics using Excel",
+    style: "row",
+    type: "",
+    image: financialStatisticsIncomeSource,
+    detail:
+      "Created custom visuals and used advanced techniques to enhance the dashboard using MS Excel.",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Financial%20Statistics%20using%20Excel",
+  },
+
   // Sales and Budget Analysis
   {
     title: "Sales & Budget Analysis using Power BI",
@@ -285,7 +297,7 @@ const dataVisualization = [
     image: salesAndBudgetAnalysis,
     detail:
       "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics.",
-    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis%20using%20Power%20BI",
   },
 ];
 
