@@ -263,7 +263,7 @@ const dataVisualization = [
     type: "",
     image: insuranceComplaintsAnalysis,
     detail:
-      "Insurance Complaints Analysis focusing on enhancing user interactions using various advanced techniques.",
+      "Insurance Complaints Analysis focusing on enhancing user interactions using advanced techniques.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Insurance%20Complaints%20Analysis%20using%20Power%20BI",
   },
 
