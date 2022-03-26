@@ -20,9 +20,9 @@ import salesAndBudgetAnalysis from "../images/projects/data-visualization/SalesA
 import executiveSalesReport from "../images/projects/data-visualization/ExecutiveSalesReport.png";
 import finanacialComplaintsTablueau from "../images/projects/data-visualization/FinanacialComplaintsTablueau.png";
 import financialStatisticsIncomeSource from "../images/projects/data-visualization/FinancialStatisticsIncomeSource.png";
+import insuranceComplaintsAnalysis from "../images/projects/data-visualization/InsuranceComplaintsAnalysis.png";
 
 // Power BI Images
-// import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.png";
 import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.gif";
 import infoBoxPopUpv01 from "../images/projects/power-bi/info-box-pop-up-v01.gif";
 import duplicateNames from "../images/projects/power-bi/handling-duplicate-names.png";
@@ -256,6 +256,17 @@ const machineLearningProjects = [
 
 // Data Visualization
 const dataVisualization = [
+  // Insurance Complaints Analysis
+  {
+    title: "Insurance Complaints Analysis using Power BI",
+    style: "row",
+    type: "",
+    image: insuranceComplaintsAnalysis,
+    detail:
+      "Insurance Complaints Analysis focusing on enhancing user interactions using various advanced techniques.",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Insurance%20Complaints%20Analysis%20using%20Power%20BI",
+  },
+
   // Executive Sales Report
   {
     title: "Executive Sales Report using Power BI",
@@ -263,7 +274,7 @@ const dataVisualization = [
     type: "",
     image: executiveSalesReport,
     detail:
-      "Executive Sales Report with some advanced features. For more details look at the code.",
+      "Executive Sales Report with dynamic measures and titles. For more details look at the code.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report%20using%20Power%20BI",
   },
 
