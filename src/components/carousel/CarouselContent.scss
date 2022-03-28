@@ -45,7 +45,8 @@
       .image {
         // height: 8em;
         max-height: 10em;
-        width: auto;
+        max-width: 50%;
+        // width: auto;
         object-fit: contain;
       }
 
