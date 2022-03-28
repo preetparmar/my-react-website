@@ -177,12 +177,12 @@ const apiProjects = [
     type: "text-only",
     image: null,
     detail:
-      "An API to fetch data from Kaggle Competitions based off official Kaggle API",
+      "An API to fetch data from Kaggle Competitions based off official Kaggle API. It can be used for searching, getting a list, and downloading files for competition.",
     link: "https://github.com/preetparmar/Kaggle-API",
   },
 ];
 
-// MY APIs
+// Python GUIs
 const pythonGUI = [
   // NotePad
   {
@@ -263,7 +263,7 @@ const dataVisualization = [
     type: "",
     image: insuranceComplaintsAnalysis,
     detail:
-      "Insurance Complaints Analysis focusing on enhancing user interactions using advanced techniques.",
+      "Insurance Complaints Analysis focusing on enhancing user interactions using custom theme, navigation buttons, dynamic measures and much more...",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Insurance%20Complaints%20Analysis%20using%20Power%20BI",
   },
 
@@ -274,7 +274,7 @@ const dataVisualization = [
     type: "",
     image: executiveSalesReport,
     detail:
-      "Executive Sales Report with dynamic measures and titles. For more details look at the code.",
+      "An Executive Sales Dashboard with some advanced features like dynamic measures, dynamic titles, button to clear all filters and more...",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report%20using%20Power%20BI",
   },
 
@@ -296,7 +296,7 @@ const dataVisualization = [
     type: "",
     image: financialStatisticsIncomeSource,
     detail:
-      "Created custom visuals and used advanced techniques to enhance the dashboard using MS Excel.",
+      "Analyzing Financial data and taking Excel to a next level with some customized visual like a donut chart & a speed gauge chart, and advanced formating techniques.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Financial%20Statistics%20using%20Excel",
   },
 
@@ -307,12 +307,12 @@ const dataVisualization = [
     type: "",
     image: salesAndBudgetAnalysis,
     detail:
-      "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics.",
+      "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics. Also used different visuals as tooltips for a more granular presentation.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis%20using%20Power%20BI",
   },
 ];
 
-// Power BI
+// Power BI Mini Projects
 const powerBiMiniProjects = [
   // Page Navigation v1
   {
@@ -321,7 +321,7 @@ const powerBiMiniProjects = [
     type: "",
     image: pageNavigationv01,
     detail:
-      "A custom page navigation bar using the built in navigator in Power BI.",
+      "A custom page navigation bar using the built in navigator in Power BI with the help of the new page navigation buttons.",
     link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
   },
 
@@ -331,7 +331,8 @@ const powerBiMiniProjects = [
     style: "row",
     type: "",
     image: hideVisualBasedOnSelection,
-    detail: "Displaying visual based on a specific condition.",
+    detail:
+      "Displaying visual based on a specific condition. A custom solution to a very common problem faced while using Power BI.",
     link: "https://blog.preetparmar.com/display-visuals-based-on-selection/",
   },
 
@@ -342,7 +343,7 @@ const powerBiMiniProjects = [
     type: "",
     image: infoBoxPopUpv01,
     detail:
-      "A pop up text box which provides more contexual data compared to simple visuals.",
+      "A picture does say a thousand words. But sometimes we need additional information to make sense of the visual. A pop up text box for adding that additional information.",
     link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
   },
 
@@ -353,7 +354,7 @@ const powerBiMiniProjects = [
     type: "",
     image: duplicateNames,
     detail:
-      "Better way to handle duplicate values. For more details look at the code in my GitHub Repository.",
+      "Tired of getting duplicate names in your dataset? A better way to handle those duplicates by using a special unicode: Zero-Width space. ",
     link: "https://blog.preetparmar.com/power-bi-handling-customer-with-same-name/",
   },
 ];
