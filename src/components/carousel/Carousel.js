@@ -18,7 +18,7 @@ const Carousel = (props) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
-    }, 6500);
+    }, 7000);
     return () => clearInterval(interval);
   }, [activeIndex, len]);
 
