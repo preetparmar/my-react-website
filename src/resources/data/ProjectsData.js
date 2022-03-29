@@ -21,6 +21,7 @@ import executiveSalesReport from "../images/projects/data-visualization/Executiv
 import finanacialComplaintsTablueau from "../images/projects/data-visualization/FinanacialComplaintsTablueau.png";
 import financialStatisticsIncomeSource from "../images/projects/data-visualization/FinancialStatisticsIncomeSource.png";
 import insuranceComplaintsAnalysis from "../images/projects/data-visualization/InsuranceComplaintsAnalysis.png";
+import basicSalesAnalysis from "../images/projects/data-visualization/BasicSalesAnalysis.png";
 
 // Power BI Images
 import pageNavigationv01 from "../images/projects/power-bi/page-navigation-v01.gif";
@@ -309,6 +310,17 @@ const dataVisualization = [
     detail:
       "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics. Also used different visuals as tooltips for a more granular presentation.",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis%20using%20Power%20BI",
+  },
+
+  // Basic Sales Analysis using Power BI
+  {
+    title: "Basic Sales Analysis using Power BI",
+    style: "row",
+    type: "",
+    image: basicSalesAnalysis,
+    detail:
+      "This dashboard is perfect for someone starting with Power BI. It is one of the fundamental projects I've created. For some advanced dashbaords, refer to my other projects.",
+    link: "https://github.com/preetparmar/Data-Visualization/tree/main/Basic%20Sales%20Analysis%20using%20Power%20BI",
   },
 ];
 
