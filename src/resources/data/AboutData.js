@@ -151,7 +151,7 @@ const ModalData = {
       "I have played Handball at a national level.",
       "I currently have 5 tattoos, definitely getting more.",
       "I play more than 8 sports.",
-      "Dogs lover: I am currently a proud owner of a Lhasa Apso.",
+      "Dogs lover.",
       "In a fight between DC and Marvel, DC wins hands down.",
       "Goku can beat Superman.",
       "I love any tech related product.",
