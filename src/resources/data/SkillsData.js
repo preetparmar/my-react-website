@@ -52,16 +52,16 @@ const SkillsData = [
       "Alteryx",
       "SSIS",
       "Talend",
-      "Power Pivot",
-      "Tableau Prep",
       "Power BI DataFlows",
+      "Tableau Prep",
       "Python Scripts",
+      "Power Pivot",
     ],
   },
 
   //   Visual Tools
   {
-    title: "Visual Tools",
+    title: "Visualization Tools",
     logo: visualLogo,
     details: [
       "Power BI",
@@ -78,14 +78,14 @@ const SkillsData = [
   {
     title: "Languages",
     logo: languageLogo,
-    details: ["Python", "R", "SQL", "HTML", "CSS", "JavaScript"],
+    details: ["Python", "SQL", "R", "JavaScript", "HTML", "CSS"],
   },
 
   //   Web Development
   {
     title: "Web Development",
     logo: webDevelopementLogo,
-    details: ["HTML", "CSS", "JavaScript", "SCSS", "React", "JSX"],
+    details: ["React", "JavaScript", "HTML", "CSS", "SCSS", "JSX"],
   },
 
   //   Python Libraries
@@ -98,13 +98,15 @@ const SkillsData = [
       "Numpy",
       "MatPlotLib",
       "SeaBorn",
-      "TensorFlow",
+      "Requests",
+      "Tkinter",
+      "Pygame",
     ],
   },
 
   //   Marketing
   {
-    title: "Marketing",
+    title: "Digital Marketing",
     logo: marketingLogo,
     details: [
       "Google Analytics",
@@ -112,9 +114,11 @@ const SkillsData = [
       "Google Campaign Manager",
       "Facebook Ads Manager",
       "Snapchat Ads for Business",
-      "Criteo",
-      "Walmart Advertising",
+      "LinkedIn Campaign Manager",
       "Amazon Marketing Services",
+      "Walmart Advertising",
+      "Sprout Social",
+      "Criteo",
       "Jivox",
     ],
   },
@@ -125,12 +129,14 @@ const SkillsData = [
     logo: mediaLogo,
     details: [
       "Adobe Photoshop",
+      "GIMP",
       "Luminar AI",
-      "Adobe Premiere",
+      "iMovie",
       "Wondershare Filmora",
       "DaVinci Resolve",
       "OBS Studio",
       "Stream Labs",
+      "YouTube Studio",
     ],
   },
 
