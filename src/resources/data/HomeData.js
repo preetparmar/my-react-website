@@ -14,9 +14,13 @@ const HomeData = {
   thought:
     "The mind that opens to a new idea never returns to its original size",
   details: [
-    "My expertise lies in Data Analytics and Data tools: mining, cleaning, transformation, and visualizations.",
+    "Extensive hands-on experience in BI tech stack, expert knowledge in Power BI, Tableau, Data Visualization & Enterprise Self-Service Data Analytics.",
+    "Over 6+ years of professional experience working with data.",
+    "I have completed a Master of Science in the field of Engineering Management, combining both management and data-related courses.",
+    "I have experience working with data using programming languages like Python and SQL.",
+    "I also have a wide variety of knowledge of various tools in the field of Business Intelligence, ETL, Databases, and Digital Marketing.",
+    "I have gained detailed knowledge of Data Management, Data Warehousing, Business Intelligence, Data Analytics, and Project Management over the course of time.",
     "I love simplifying and perfecting things which translates into my way of working.",
-    "Before this, I completed my M.S. degree in Engineering Management from Northeastern University, Boston where I gained experience in both Management as well as Data Analytics concepts.",
     "I have built multiple data processes to collect, organize, transform and visualize the data.",
     "I have also been responsible to lead a team and mentor them in various emerging data tools and designing a roadmap for learning.",
     "I love solving complex problems and finding the optimal solution for them, mainly because it provides me with an opportunity to widen my skill set and learn something new.",
@@ -27,36 +31,42 @@ const HomeData = {
 
 const HomeCards = [
   {
-    title: "Education",
-    image: educationImage,
-    link: "/education",
-  },
-  {
-    title: "Skills",
-    image: skillsImage,
-    link: "/skills",
-  },
-  {
     title: "Experience",
     image: experienceImage,
     link: "/experience",
   },
+
   {
     title: "Projects",
     image: projectsImage,
     link: "/projects",
   },
+
   {
-    title: "About Me",
-    image: aboutImage,
-    link: "/about",
+    title: "Skills",
+    image: skillsImage,
+    link: "/skills",
   },
+
+  {
+    title: "Education",
+    image: educationImage,
+    link: "/education",
+  },
+
   {
     title: "Blog",
     image: blogImage,
     link: { pathname: "https://blog.preetparmar.com" },
     target: "_blank",
   },
+
+  {
+    title: "About Me",
+    image: aboutImage,
+    link: "/about",
+  },
+
   {
     title: "Resume",
     image: resumeImage,

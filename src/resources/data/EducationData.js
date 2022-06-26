@@ -11,7 +11,7 @@ const EducationData = [
     course: "Engineering Management",
     timeFrame: "(2015 - 2017)",
     introText:
-      "I opted to do masters in Engineering Management and picked up courses related to Data, because I wanted to broaden my skillset in management along side with technical knowledge related to data. Here are some of the courses which I took:",
+      "I opted to do a master's in Engineering Management and picked up courses related to Data because I wanted to broaden my skillset in management alongside technical knowledge related to data. Here are some of the courses which I took:",
     details: [
       "Data Warehouse and Business Intelligence",
       "Business Analysis and Information Engineering",
@@ -34,7 +34,7 @@ const EducationData = [
     course: "Electronics Engineering",
     timeFrame: "(2008 - 2012)",
     introText:
-      "Coming out of secondary education, I was very much interest in technology and all the various tech products. That's why I decided to persue my further studies in the field of Electronics. I also gained knowledge in advanced mathematics and some of the coding subjects. Here are some of the courses which I took:",
+      "Coming out of secondary education, I was very much interested in technology and all the various tech products. That's why I decided to pursue my further studies in the field of Electronics. I also gained knowledge in advanced mathematics and some coding subjects. Here are some of the courses which I took:",
     details: [
       "Engineering Mathematics",
       "Data Structures",

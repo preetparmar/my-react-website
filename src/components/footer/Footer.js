@@ -92,12 +92,12 @@ const Footer = () => {
           </a>
         </div>
         <div className={footerStyles.contactContainer}>
-          <p className={footerStyles.number}>+91-8401947314</p>
+          <p className={footerStyles.number}>+1 (647) 203-8299</p>
           <a
             className={footerStyles.email}
-            href="mailto:contact@preetparmar.com"
+            href="mailto:preetparmar@outlook.com"
           >
-            contact@preetparmar.com
+            preetparmar@outlook.com
           </a>
         </div>
       </section>

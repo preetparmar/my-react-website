@@ -24,6 +24,7 @@ import {
   machineLearningProjects,
   dataVisualization,
   powerBiMiniProjects,
+  pysparkProjects,
 } from "../resources/data/ProjectsData";
 
 // Main Function
@@ -41,6 +42,7 @@ const Projects = () => {
       <Introduction introText={IntroData[`${currentSelection}`].text} />
       <Carousel title="My Website" data={myWebsite} />
       <Carousel title="Data Visualization" data={dataVisualization} />
+      <Carousel title="PySpark Projects" data={pysparkProjects} />
       <Carousel title="Power BI Mini Projects" data={powerBiMiniProjects} />
       <Carousel title="My APIs" data={apiProjects} />
       <Carousel title="Telegram Bot" data={telegramBot} />

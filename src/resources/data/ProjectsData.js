@@ -29,6 +29,9 @@ import infoBoxPopUpv01 from "../images/projects/power-bi/info-box-pop-up-v01.gif
 import duplicateNames from "../images/projects/power-bi/handling-duplicate-names.png";
 import hideVisualBasedOnSelection from "../images/projects/power-bi/display-visual-based-on-selection.gif";
 
+// PySpark Project Images
+import simpleEtl from "../images/projects/pyspark-projects/simple-etl.jpg";
+
 // PYTHON GAMES
 const pythonGames = [
   // T Rex Run
@@ -39,6 +42,7 @@ const pythonGames = [
     image: trexGif,
     detail:
       "The famous Dino Game in Python using PyGame. I have incorporated sprites for animations, included sounds for jump, score and a highscore counter.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Python-Games/tree/master/TRex-Rush",
   },
 
@@ -50,6 +54,7 @@ const pythonGames = [
     image: flappyGif,
     detail:
       "This is one of the most annoying yet entertaining games. I recreated the classic version in Python using the PyGame module.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Flappy-Bird",
   },
 
@@ -61,6 +66,7 @@ const pythonGames = [
     image: asteroidClashImage,
     detail:
       "The famouse Asteroid game recreated using Pygame and Object Oriented Programming concepts in python",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Asteroid%20Clash",
   },
 
@@ -72,6 +78,7 @@ const pythonGames = [
     image: snakeImage,
     detail:
       "Being a 90s kid this game is very close to my heart. I wanted to make this game my own and in process widen my skill and knowledge about python modules.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Snake-Game",
   },
   // Blackjack
@@ -82,6 +89,7 @@ const pythonGames = [
     image: null,
     detail:
       "A CLI python game focusing on the implementaion and use of Python Classes. I decided on doing this project to get the basic understanding of using Python as an Object Oriented Progamming Language.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Python-Games/tree/master/Blackjack",
   },
 ];
@@ -94,7 +102,8 @@ const myWebsite = [
     type: "single",
     image: null,
     detail:
-      "During the pandemic (COVID-19), I decided to create a single page resume and publish it to the web. This small idea led me to create the current website. This is my first attempt at creating a website so feel free to inspect my code and reach me at my email with any feedback.",
+      "During the pandemic (COVID-19), I decided to create a single-page resume and publish it on the web. This small idea led me to create the current website. This is my first attempt at creating a website so feel free to inspect my code and reach me by email with any feedback.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/my-react-website",
   },
 ];
@@ -109,6 +118,7 @@ const websiteAnimations = [
     image: expandingImageGif,
     detail:
       "A very cool animation which can be used for showcasing your catalog or navigating your site.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Website-Animations/tree/main/Expanding%20Images",
   },
 
@@ -120,6 +130,7 @@ const websiteAnimations = [
     image: feedbackUiGif,
     detail:
       "Clean and simple animation to register feedback from customers. I have used Element Bubbling to select various elements.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Website-Animations/tree/main/Feedback%20UI",
   },
 
@@ -130,6 +141,7 @@ const websiteAnimations = [
     type: "",
     image: splitLandingPageGif,
     detail: "A split landing page to showcase or compare any two products.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Website-Animations/tree/main/Split%20Landing%20Page",
   },
 
@@ -141,6 +153,7 @@ const websiteAnimations = [
     image: inputWaveGif,
     detail:
       "A cool looking animation which triggers when you select an input field.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Website-Animations/tree/main/Input%20Wave%20Animation",
   },
 ];
@@ -154,6 +167,7 @@ const telegramBot = [
     image: null,
     detail:
       "Created my very own Telegram Bot using Python and utilised some APIs like Oxford API, Dark Sky Weather API, Google's Geo Location API and TheCocktailDB API. I have added some useful as well some fun functionalites to the bot.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Telegram-Bot",
   },
 ];
@@ -168,7 +182,20 @@ const apiProjects = [
     image: null,
     detail:
       "The Google Search Platform has a limitaion of exporting only 1000 rows at a given time, and the data can't be exported by Day, Keyword, Pages and Devices all together. I created a GUI based API in Python which exports the data with all the dimensions and also bypasses the limiation on number of rows.",
-    link: "https://github.com/preetparmar/Search-Console-API",
+    linkTitle: "Project Link",
+    link: "https://github.com/preetparmar/Python-APIs/tree/main/Search-Console-API",
+  },
+
+  // Dropbox API
+  {
+    title: "Dropbox API",
+    style: "",
+    type: "text-only",
+    image: null,
+    detail:
+      "I started to track my expenses on my phone, and the app that I was using had a feature where I could export my expenses in CSV format to my dropbox. The idea was to create a dashboard using Power BI and Tableau. To connect the data to dropbox, I decided to download the files to local storage. To avoid the manual download, I thought of automating that.",
+    linkTitle: "Project Link",
+    link: "https://github.com/preetparmar/Python-APIs/tree/main/Dropbox-API",
   },
 
   // Kaggle API
@@ -179,7 +206,8 @@ const apiProjects = [
     image: null,
     detail:
       "An API to fetch data from Kaggle Competitions based off official Kaggle API. It can be used for searching, getting a list, and downloading files for competition.",
-    link: "https://github.com/preetparmar/Kaggle-API",
+    linkTitle: "Project Link",
+    link: "https://github.com/preetparmar/Python-APIs/tree/main/Kagge-API",
   },
 ];
 
@@ -193,6 +221,7 @@ const pythonGUI = [
     image: notepadImage,
     detail:
       "A notepad created in python using tkinter library. I have added various functionalities like: creating a note, changing fonts, change font styles or font sizes, saving the file, and opening a saved file.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/My-GUI/tree/main/05.%20Notepad",
   },
 
@@ -204,6 +233,7 @@ const pythonGUI = [
     image: calculatorImage,
     detail:
       "Fully functional calculator with features like Addition, Substraction, Division, Multiplication, Inverse, Square, and Exponential created in python.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/My-GUI/tree/main/04.%20Calculator",
   },
 
@@ -215,6 +245,7 @@ const pythonGUI = [
     image: checklistGif,
     detail:
       "A simple checklist with features like Adding, Removing, Clearing and Saving the checklist.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/My-GUI/tree/main/03.%20Simple%20Checklist",
   },
 
@@ -226,6 +257,7 @@ const pythonGUI = [
     image: metricsConverterGif,
     detail:
       "Metrics Converter where you can enter the base value and select the unit you want to convert your base value into.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/My-GUI/tree/main/02.%20Metric%20Helper",
   },
 ];
@@ -240,6 +272,7 @@ const machineLearningProjects = [
     image: null,
     detail:
       "Analysed California House Prices and applied some of Machine Learning Algorithms like Linear Regression, Decision Tree Regressor, and Random Forest Regressor. This project is more focused the cleaning, analyzing and visualizing the data.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Machine-Learning-Projects/blob/main/California%20House%20Prices.ipynb",
   },
 
@@ -251,6 +284,7 @@ const machineLearningProjects = [
     image: null,
     detail:
       "Analysed MNIST data and applied few classification algorithms. This project is a start-up project, where I go over some of the evaluation techniques for classification models.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Machine-Learning-Projects/blob/main/MNIST%20Data.ipynb",
   },
 ];
@@ -264,7 +298,8 @@ const dataVisualization = [
     type: "",
     image: insuranceComplaintsAnalysis,
     detail:
-      "Insurance Complaints Analysis focusing on enhancing user interactions using custom theme, navigation buttons, dynamic measures and much more...",
+      "Insurance Complaints Analysis which focuses on enhancing user interactions using a custom theme, navigation buttons, dynamic measures, and much more...",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Insurance%20Complaints%20Analysis%20using%20Power%20BI",
   },
 
@@ -276,6 +311,7 @@ const dataVisualization = [
     image: executiveSalesReport,
     detail:
       "An Executive Sales Dashboard with some advanced features like dynamic measures, dynamic titles, button to clear all filters and more...",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Executive%20Sales%20Report%20using%20Power%20BI",
   },
 
@@ -287,6 +323,7 @@ const dataVisualization = [
     image: finanacialComplaintsTablueau,
     detail:
       "A replication of a very interesting dashbaord I came across in Tableau. It goes over Financial Complaints Dataset and used various advanced visuals.",
+    linkTitle: "Project Link",
     link: "https://public.tableau.com/app/profile/preet.parmar6806/viz/FinancialComplaints_16446649411580/FCOVERVIEW?publish=yes",
   },
 
@@ -298,6 +335,7 @@ const dataVisualization = [
     image: financialStatisticsIncomeSource,
     detail:
       "Analyzing Financial data and taking Excel to a next level with some customized visual like a donut chart & a speed gauge chart, and advanced formating techniques.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Financial%20Statistics%20using%20Excel",
   },
 
@@ -309,6 +347,7 @@ const dataVisualization = [
     image: salesAndBudgetAnalysis,
     detail:
       "Analysed Sales and Budget using a random dataset with the help of various visuals and metrics. Also used different visuals as tooltips for a more granular presentation.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Sales%20and%20Budget%20Analysis%20using%20Power%20BI",
   },
 
@@ -320,6 +359,7 @@ const dataVisualization = [
     image: basicSalesAnalysis,
     detail:
       "This dashboard is perfect for someone starting with Power BI. It is one of the fundamental projects I've created. For some advanced dashbaords, refer to my other projects.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/Data-Visualization/tree/main/Basic%20Sales%20Analysis%20using%20Power%20BI",
   },
 ];
@@ -334,6 +374,7 @@ const powerBiMiniProjects = [
     image: pageNavigationv01,
     detail:
       "A custom page navigation bar using the built in navigator in Power BI with the help of the new page navigation buttons.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
   },
 
@@ -345,6 +386,7 @@ const powerBiMiniProjects = [
     image: hideVisualBasedOnSelection,
     detail:
       "Displaying visual based on a specific condition. A custom solution to a very common problem faced while using Power BI.",
+    linkTitle: "Project Link",
     link: "https://blog.preetparmar.com/display-visuals-based-on-selection/",
   },
 
@@ -356,6 +398,7 @@ const powerBiMiniProjects = [
     image: infoBoxPopUpv01,
     detail:
       "A picture does say a thousand words. But sometimes we need additional information to make sense of the visual. A pop up text box for adding that additional information.",
+    linkTitle: "Project Link",
     link: "https://github.com/preetparmar/PowerBI-Mini-Projects/tree/main/Page%20Navigation%20-%2001",
   },
 
@@ -367,7 +410,23 @@ const powerBiMiniProjects = [
     image: duplicateNames,
     detail:
       "Tired of getting duplicate names in your dataset? A better way to handle those duplicates by using a special unicode: Zero-Width space. ",
+    linkTitle: "Project Link",
     link: "https://blog.preetparmar.com/power-bi-handling-customer-with-same-name/",
+  },
+];
+
+// PySpark Projects
+const pysparkProjects = [
+  // Simple ETL
+  {
+    title: "Simple ETL",
+    style: "row",
+    type: "",
+    image: simpleEtl,
+    detail:
+      "Since Tableau doesn't allow us to pivot data coming from different connections. I decided to take this process to PySpark.",
+    linkTitle: "Project Link",
+    link: "https://github.com/preetparmar/PySpark-Projects/tree/main/01.%20Pivoting%20Data",
   },
 ];
 
@@ -381,4 +440,5 @@ export {
   machineLearningProjects,
   dataVisualization,
   powerBiMiniProjects,
+  pysparkProjects,
 };

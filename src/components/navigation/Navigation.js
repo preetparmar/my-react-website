@@ -53,19 +53,11 @@ const Navigation = () => {
           <div className={navStyles.listContainer}>
             <ul>
               <li>
+                {/* Home */}
                 <NavLink exact activeClassName={navStyles.active} to="/">
                   Home
                 </NavLink>
-                <NavLink
-                  exact
-                  activeClassName={navStyles.active}
-                  to="/education"
-                >
-                  Education
-                </NavLink>
-                <NavLink exact activeClassName={navStyles.active} to="/skills">
-                  Skills
-                </NavLink>
+                {/* Experience */}
                 <NavLink
                   exact
                   activeClassName={navStyles.active}
@@ -73,6 +65,7 @@ const Navigation = () => {
                 >
                   Experience
                 </NavLink>
+                {/* Projects */}
                 <NavLink
                   exact
                   activeClassName={navStyles.active}
@@ -80,9 +73,19 @@ const Navigation = () => {
                 >
                   Projects
                 </NavLink>
-                <NavLink exact activeClassName={navStyles.active} to="/about">
-                  About Me
+                {/* Skills */}
+                <NavLink exact activeClassName={navStyles.active} to="/skills">
+                  Skills
                 </NavLink>
+                {/* Education */}
+                <NavLink
+                  exact
+                  activeClassName={navStyles.active}
+                  to="/education"
+                >
+                  Education
+                </NavLink>
+                {/* Blog */}
                 <a
                   href="https://blog.preetparmar.com"
                   target="_blank"
@@ -90,6 +93,12 @@ const Navigation = () => {
                 >
                   Blog
                 </a>
+                {/* About Me */}
+                <NavLink exact activeClassName={navStyles.active} to="/about">
+                  About Me
+                </NavLink>
+
+                {/* Resume */}
                 <a href={resume} target="_blank" rel="noreferrer">
                   Resume
                 </a>

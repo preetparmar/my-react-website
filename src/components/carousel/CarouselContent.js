@@ -30,7 +30,8 @@ function CarouselContent({ activeIndex, data }) {
                   rel="noopener noreferrer"
                   className="codeText"
                 >
-                  Project Link
+                  {/* Project Link */}
+                  {project.linkTitle}
                 </a>
               </div>
             )}

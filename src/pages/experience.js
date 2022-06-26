@@ -10,6 +10,11 @@ import Showcase from "../components/showcase/Showcase";
 import Footer from "../components/footer/Footer";
 import GoBackUp from "../components/go-back-up/GoBackUp";
 
+// TESTING
+import Carousel from "../components/carousel/Carousel";
+import { recommendations } from "../resources/data/RecommendationsData";
+// TESTING END
+
 // Importing Data
 import BannerData from "../resources/data/BannerData";
 import IntroData from "../resources/data/IntroData";
@@ -29,6 +34,10 @@ const Experience = () => {
         text={BannerData[`${currentSelection}`].text}
       />
       <Introduction introText={IntroData[`${currentSelection}`].text} />
+      {/* TESTING */}
+      <Carousel title="Recommendations" data={recommendations} />
+
+      {/* TESTING END */}
       <Showcase data={ExperienceData} />
       <GoBackUp />
       <Footer />

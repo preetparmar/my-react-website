@@ -29,36 +29,6 @@ const mediaLogo = <FontAwesomeIcon icon={faIcons} />;
 // Declaring Data
 
 const SkillsData = [
-  // Databases
-  {
-    title: "Databases",
-    logo: databaseLogo,
-    details: [
-      "SQL Server",
-      "MySQL",
-      "PostgreSQL",
-      "Oracle",
-      "AWS",
-      "Salesforce",
-      "Toad Data Modeler",
-    ],
-  },
-
-  //   ETL Tools
-  {
-    title: "ETL Tools",
-    logo: etlLogo,
-    details: [
-      "Alteryx",
-      "SSIS",
-      "Talend",
-      "Power BI DataFlows",
-      "Tableau Prep",
-      "Python Scripts",
-      "Power Pivot",
-    ],
-  },
-
   //   Visual Tools
   {
     title: "Visualization Tools",
@@ -67,10 +37,40 @@ const SkillsData = [
       "Power BI",
       "Tableau",
       "Google Data Studio",
-      "Power Pivot",
       "Qlik Sense",
-      "Looker",
+      "Power Pivot",
+      "Excel",
       "Knime",
+    ],
+  },
+
+  // Databases
+  {
+    title: "Databases",
+    logo: databaseLogo,
+    details: [
+      "SQL Server",
+      "MySQL",
+      "PostgreSQL",
+      "Toad Data Modeler",
+      "Salesforce",
+      "AWS",
+      "Oracle",
+    ],
+  },
+
+  //   ETL Tools
+  {
+    title: "ETL Tools",
+    logo: etlLogo,
+    details: [
+      "SSIS",
+      "Power BI DataFlows",
+      "Talend",
+      "Tableau Prep",
+      "Power Pivot",
+      "Python Scripts",
+      "Alteryx",
     ],
   },
 
@@ -78,14 +78,7 @@ const SkillsData = [
   {
     title: "Languages",
     logo: languageLogo,
-    details: ["Python", "SQL", "R", "JavaScript", "HTML", "CSS"],
-  },
-
-  //   Web Development
-  {
-    title: "Web Development",
-    logo: webDevelopementLogo,
-    details: ["React", "JavaScript", "HTML", "CSS", "SCSS", "JSX"],
+    details: ["SQL", "Python", "R", "JavaScript", "HTML", "CSS"],
   },
 
   //   Python Libraries
@@ -93,6 +86,7 @@ const SkillsData = [
     title: "Python Libraries",
     logo: pythonLogo,
     details: [
+      "PySpark",
       "Scikit-Learn",
       "Pandas",
       "Numpy",
@@ -110,7 +104,6 @@ const SkillsData = [
     logo: marketingLogo,
     details: [
       "Google Analytics",
-      "Adobe Analytics",
       "Google Campaign Manager",
       "Facebook Ads Manager",
       "Snapchat Ads for Business",
@@ -118,9 +111,17 @@ const SkillsData = [
       "Amazon Marketing Services",
       "Walmart Advertising",
       "Sprout Social",
+      "Adobe Analytics",
       "Criteo",
       "Jivox",
     ],
+  },
+
+  //   Web Development
+  {
+    title: "Web Development",
+    logo: webDevelopementLogo,
+    details: ["React", "JavaScript", "HTML", "CSS", "SCSS", "JSX"],
   },
 
   //   Media
@@ -130,13 +131,13 @@ const SkillsData = [
     details: [
       "Adobe Photoshop",
       "GIMP",
+      "OBS Studio",
+      "Stream Labs",
+      "YouTube Studio",
       "Luminar AI",
       "iMovie",
       "Wondershare Filmora",
       "DaVinci Resolve",
-      "OBS Studio",
-      "Stream Labs",
-      "YouTube Studio",
     ],
   },
 
@@ -146,12 +147,12 @@ const SkillsData = [
     logo: generalLogo,
     details: [
       "MS Office",
-      "Mentorship",
-      "Problem solving",
+      "Storytelling",
+      "Problem-solving",
       "Teamwork",
       "Time management",
       "Effective communication",
-      "Storytelling",
+      "Mentorship",
       "First Aid and CPR Certification",
     ],
   },
